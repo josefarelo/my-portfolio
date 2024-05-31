@@ -1,0 +1,46 @@
+@import '../styles/colors';
+
+.projects {
+    padding: 2rem;
+
+    .project-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .project-card {
+        background-color: $light-bg;
+        border: 1px solid $dark-color;
+        border-radius: 8px;
+        padding: 1rem;
+        width: 300px;
+        text-align: center;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        h3 {
+            margin: 1rem 0 0.5rem;
+        }
+
+        p {
+            margin: 0 0 1rem;
+        }
+
+        a {
+            color: $dark-color;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+

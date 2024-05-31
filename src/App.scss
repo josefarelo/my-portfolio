@@ -1,0 +1,16 @@
+@import './styles/colors';
+
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+
+  &.light {
+    background-color: $light-bg;
+    color: $dark-color;
+  }
+
+  &.dark {
+    background-color: $dark-bg;
+    color: $light-color;
+  }
+}

@@ -1,0 +1,29 @@
+@import '../styles/colors';
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: $dark-bg;
+    color: $light-color;
+
+    .navbar-actions {
+        button {
+            margin-left: 1rem;
+            background: none;
+            border: 1px solid $light-color;
+            color: $light-color;
+            cursor: pointer;
+            font-size: 1rem;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+
+            &:hover {
+                background-color: $light-color;
+                color: $dark-bg;
+            }
+        }
+    }
+}
+

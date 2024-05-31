@@ -1,6 +1,11 @@
 {
-    "projects": "Proyectos",
-    "projectName": "Nombre del Proyecto",
-    "projectDescription": "Descripción breve del proyecto",
-    "projectLink": "Ver Proyecto"
+    "aboutTitle": "Sobre Mí",
+    "aboutDescription": "Descripción breve sobre mí.",
+    "skillsTitle": "Habilidades",
+    "contactTitle": "Contacto",
+    "contactName": "Tu Nombre",
+    "contactEmail": "Tu Correo Electrónico",
+    "contactMessage": "Tu Mensaje",
+    "contactSend": "Enviar"
 }
+

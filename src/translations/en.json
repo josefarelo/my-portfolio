@@ -1,6 +1,11 @@
 {
-    "projects": "Projects",
-    "projectName": "Project Name",
-    "projectDescription": "Brief description of the project",
-    "projectLink": "View Project"
+    "aboutTitle": "About Me",
+    "aboutDescription": "Brief description about me.",
+    "skillsTitle": "Skills",
+    "contactTitle": "Contact",
+    "contactName": "Your Name",
+    "contactEmail": "Your Email",
+    "contactMessage": "Your Message",
+    "contactSend": "Send"
 }
+

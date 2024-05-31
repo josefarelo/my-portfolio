@@ -1,0 +1,32 @@
+@import '../styles/colors';
+
+.contact {
+    padding: 2rem;
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        input, textarea {
+            margin: 0.5rem 0;
+            padding: 0.5rem;
+            width: 100%;
+            max-width: 400px;
+        }
+        
+        button {
+            padding: 0.5rem 2rem;
+            cursor: pointer;
+            border: none;
+            background-color: $dark-bg;
+            color: $light-color;
+            border-radius: 5px;
+    
+            &:hover {
+                background-color: $light-color;
+                color: $dark-bg;
+            }
+        }
+    }
+}

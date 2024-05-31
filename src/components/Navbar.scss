@@ -8,6 +8,19 @@
     background-color: $dark-bg;
     color: $light-color;
 
+    .navbar-links {
+        a {
+            margin-right: 1rem;
+            color: $light-color;
+            text-decoration: none;
+            cursor: pointer;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
     .navbar-actions {
         button {
             margin-left: 1rem;
@@ -26,4 +39,5 @@
         }
     }
 }
+
 

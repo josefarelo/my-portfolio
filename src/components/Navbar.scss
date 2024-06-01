@@ -1,12 +1,16 @@
 @import '../styles/colors';
 
 .navbar {
+    position: fixed;
+    width: 100vw;
+    height: 9vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
     background-color: $dark-bg;
     color: $light-color;
+    border-bottom: 2px solid black;
 
     .navbar-links {
         a {

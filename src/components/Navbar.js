@@ -21,7 +21,12 @@ const Navbar = ({ toggleTheme, toggleLanguage }) => {
                 </Link>
             </div>
             <div className="navbar-actions">
-                <button onClick={toggleTheme}>Toggle Theme</button>
+                <div className="toggle-switch">
+                    <label className="switch-label">
+                        <input type="checkbox" className="checkbox" onChange={toggleTheme} />
+                        <span className="slider"></span>
+                    </label>
+                </div>
                 <button onClick={toggleLanguage}>Toggle Language</button>
             </div>
         </nav>

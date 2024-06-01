@@ -8,9 +8,19 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: $dark-bg;
+    background-color: $nav-dark-color;
     color: $light-color;
     border-bottom: 2px solid black;
+
+    &.light {
+        background-color: $light-bg;
+        color: $dark-color;
+    }
+    
+    &.dark {
+        background-color: $dark-bg;
+        color: $light-color;
+    }
 
     .navbar-links {
         a {

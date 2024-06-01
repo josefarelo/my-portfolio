@@ -1,5 +1,9 @@
 @import './styles/colors';
 
+body::-webkit-scrollbar {
+  width: 0;
+}
+
 .App {
   font-family: Arial, sans-serif;
   text-align: center;

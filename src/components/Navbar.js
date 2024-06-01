@@ -7,16 +7,16 @@ const Navbar = ({ toggleTheme, toggleLanguage }) => {
         <nav className="navbar">
             <h1>My Portfolio</h1>
             <div className="navbar-links">
-                <Link to="about" smooth={true} duration={500}>
+                <Link to="about" smooth={true} duration={600}>
                     About
                 </Link>
-                <Link to="skills" smooth={true} duration={500}>
+                <Link to="skills" smooth={true} duration={600}>
                     Skills
                 </Link>
-                <Link to="projects" smooth={true} duration={500}>
+                <Link to="projects" smooth={true} duration={600}>
                     Projects
                 </Link>
-                <Link to="contact" smooth={true} duration={500}>
+                <Link to="contact" smooth={true} duration={600}>
                     Contact
                 </Link>
             </div>

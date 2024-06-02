@@ -1,18 +1,46 @@
 import React from 'react';
 import './Skills.scss';
+import jsLogo from '../assets/java-script-logo.ico';
+import reactLogo from '../assets/react-logo.ico';
+import nodeLogo from '../assets/node-logo.ico';
+import htmlLogo from '../assets/html-logo.ico';
+import cssLogo from '../assets/css-logo.ico';
+import sassLogo from '../assets/sass-logo.ico';
+import sqlLogo from '../assets/sql-logo.ico';
+import csharpLogo from '../assets/c-sharp-logo.ico';
 
 const Skills = ({ translations }) => {
     return (
         <div className="skills">
-            <h2>{translations.skillsTitle}</h2>
-            <ul>
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>Node.js</li>
-                <li>HTML & CSS</li>
-                <li>Sass</li>
-                <li>SQL & NoSQL</li>
-            </ul>
+            <div className='skills-title'>{translations.skillsTitle}</div>
+            <div className='skills-container'>
+                <div className="skills-hard">
+                    <h2 className='hard-skills-title'>{translations.hardSkillsTitle}</h2>
+                    <div className="skills-logos">
+                        <img src={htmlLogo} alt="HTML" />
+                        <img src={cssLogo} alt="CSS" />
+                        <img src={jsLogo} alt="JavaScript" />
+                        <img src={reactLogo} alt="React" />
+                        <img src={sassLogo} alt="Sass" />
+                        <img src={nodeLogo} alt="Node.js" />
+                        <img src={sqlLogo} alt="SQL" />
+                        <img src={csharpLogo} alt="C#" />
+                    </div>
+                </div>
+                <div className="skills-soft">
+                    <h2 className='soft-skills-title'>{translations.softSkillsTitle}</h2>
+                    <ul>
+                        <li>{translations.softSkill1}</li>
+                        <li>{translations.softSkill2}</li>
+                        <li>{translations.softSkill3}</li>
+                        <li>{translations.softSkill4}</li>
+                        <li>{translations.softSkill5}</li>
+                        <li>{translations.softSkill6}</li>
+                        <li>{translations.softSkill7}</li>
+                        <li>{translations.softSkill8}</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     );
 };

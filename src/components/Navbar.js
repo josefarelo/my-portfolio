@@ -10,7 +10,7 @@ const Navbar = ({ toggleTheme, toggleLanguage, language }) => {
             <h1>José Farelo</h1>
             <div className="navbar-links">
                 <Link to="about" smooth={true} duration={600}>
-                    {language === 'es' ? 'Acerca de' : 'About'}
+                    {language === 'es' ? 'Conoceme' : 'About'}
                 </Link>
                 <Link to="skills" smooth={true} duration={600}>
                     {language === 'es' ? 'Habilidades' : 'Skills'}

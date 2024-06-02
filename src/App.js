@@ -24,7 +24,11 @@ const App = () => {
 
   return (
     <div className={`App ${theme}`}>
-      <Navbar toggleTheme={toggleTheme} toggleLanguage={toggleLanguage} />
+      <Navbar
+        toggleTheme={toggleTheme}
+        toggleLanguage={toggleLanguage}
+        language={language} // Pasar el idioma actual al Navbar
+      />
       <section name="about" className="section">
         <About translations={translations[language]} />
       </section>
@@ -42,3 +46,4 @@ const App = () => {
 };
 
 export default App;
+

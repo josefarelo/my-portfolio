@@ -1,0 +1,57 @@
+@import 'src/styles/colors.scss';
+
+.toggle-switch-theme {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85px;
+    height: 50px;
+
+    .switch-label-theme {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        width: 70%;
+        height: 70%;
+        background-color: $dark;
+        border-radius: 25px;
+        cursor: pointer;
+
+        .checkbox {
+            position: absolute;
+            display: none;
+        }
+
+        .slider {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            border-radius: 25px;
+            transition: 0.3s;
+
+            &::before {
+                content: "";
+                position: absolute;
+                top:20%;
+                width: 35%;
+                height: 60%;
+                border-radius: 50%;
+                box-shadow: inset 1.05vmin -0.45vmin 0px 0px $light;
+                background-color: $dark;
+                transition: 0.4s;
+            }
+        }
+
+        .checkbox:checked ~ .slider {
+            background-color: $light;
+        }
+
+        .checkbox:checked ~ .slider::before {
+            transform: translateX(-100%);
+            background-color: $dark;
+            box-shadow: none;
+        }
+    }
+}

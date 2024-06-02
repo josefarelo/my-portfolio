@@ -27,7 +27,7 @@ const App = () => {
       <Navbar
         toggleTheme={toggleTheme}
         toggleLanguage={toggleLanguage}
-        language={language} // Pasar el idioma actual al Navbar
+        language={language}
       />
       <section name="about" className="section">
         <About translations={translations[language]} />

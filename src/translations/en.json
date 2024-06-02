@@ -1,6 +1,9 @@
 {
     "aboutTitle": "About Me",
-    "aboutDescription": "Brief description about me.",
+    "aboutDescription1": "Hi! I'm Jose, a web developer passionate about technologies and training.”",
+    "aboutDescription2": "I am in training as a systems engineer, industrial engineer and self-taught. I have completed several personal projects that demonstrate my ability to create efficient and quality web applications.",
+    "aboutDescription3": "My experience in other industries has equipped me with strong attention to detail and teamwork skills, while my dedication to training has taught me discipline and focus.",
+    "aboutDescription4": "I am excited to continue growing in the web development field, and am looking for an opportunity to apply my technical skills and contribute to a dynamic team. I am eager to learn from other professionals and bring my enthusiasm and skills to new projects.",
     "skillsTitle": "Skills",
     "contactTitle": "Contact",
     "contactName": "Your Name",

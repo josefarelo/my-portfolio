@@ -1,3 +1,34 @@
+@import '../styles/colors';
+
 .about {
+    width: 100vw;
     padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .about-description {
+        display: flex-column;
+        width: 40%;
+
+        .about-title {
+            font-size: 2rem;
+            font-weight: 700;
+        }
+
+        .about-text {
+            text-align: start;
+            font-size: 1.2rem;
+        }
+    }
+
+    .about-img-container {
+        background-image: url(../assets/aboutMeImg.png);
+        width: 17.7vw;
+        height: 37vh;
+        background-size: cover;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.13);
+        border-radius: 50%;
+        margin-left: 3%;
+    }
 }

@@ -3,9 +3,17 @@ import './About.scss';
 
 const About = ({ translations }) => {
     return (
-        <div className="about">
-            <h2>{translations.aboutTitle}</h2>
-            <p>{translations.aboutDescription}</p>
+        <div className='about'>
+            <div className='about-description'>
+                <h2 className='about-title'>{translations.aboutTitle}</h2>
+                <div className='about-text'>
+                    <p>{translations.aboutDescription1}</p>
+                    <p>{translations.aboutDescription2}</p>
+                    <p>{translations.aboutDescription3}</p>
+                    <p>{translations.aboutDescription4}</p>
+                </div>
+            </div>
+            <div className='about-img-container' />
         </div>
     );
 };

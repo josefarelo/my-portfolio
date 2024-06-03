@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import spanishFlag from '../../assets/spainFlag.jpg';
-import englishFlag from '../../assets/usaFlag.jpg';
+import spanishFlag from '../../assets/spain-flag.jpg';
+import englishFlag from '../../assets/usa-flag.jpg';
 
 const LanguageButton = ({ onChange }) => {
     const [isChecked, setIsChecked] = useState(false);

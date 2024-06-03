@@ -1,5 +1,7 @@
 import React from 'react';
 import './Projects.scss';
+import medicarImg from '../assets/medicar-img.jpg';
+import portfolioImg from '../assets/portfolio-img.jpg';
 
 const Projects = ({translations }) => {
     return (
@@ -7,14 +9,29 @@ const Projects = ({translations }) => {
             <h2>{translations.projects}</h2>
             <div className="project-list">
                 <div className="project-card">
-                    <img src="project-image.jpg" alt="Project" />
-                    <h3>{translations.projectName}</h3>
-                    <p>{translations.projectDescription}</p>
-                    <a href="project-link" target="_blank" rel="noopener noreferrer">
+                    <h3>{translations.projectMedicar}</h3>
+                    <img 
+                        src={medicarImg}
+                        alt='Project' 
+                        className='project-img'
+                    />
+                    <p>{translations.medicarDescription}</p>
+                    <a href="https://github.com/josefarelo/proyecto-cartilla-medica" target="_blank" rel="noopener noreferrer">
                         {translations.projectLink}
                     </a>
                 </div>
-                {/* Añade más proyectos aquí */}
+                <div className="project-card">
+                    <h3>{translations.projectPortfolio}</h3>
+                    <img 
+                        src={portfolioImg}
+                        alt='Project' 
+                        className='project-img'
+                    />
+                    <p>{translations.portfolioDescription}</p>
+                    <a href="https://github.com/josefarelo/mi-portfolio" target="_blank" rel="noopener noreferrer">
+                        {translations.projectLink}
+                    </a>
+                </div>
             </div>
         </section>
     );

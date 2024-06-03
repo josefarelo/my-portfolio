@@ -6,40 +6,28 @@
     .skills-title {
         font-size: 2rem;
         font-weight: 700;
+        padding: 5vh;
     }
 
     .skills-container {
         justify-content: space-around;
 
-        .skills-hard {
+        .hard-skills {
             display: block;
-            padding: 1%;
-
-            .hard-skills-title {
-                font-size: 1.6rem;
-                font-weight: 700;
-                padding: 1rem;
-            }
+            padding: 5vh;
 
             .skills-logos {
                 display: flex;
                 justify-content: center;
-                gap: 2%;
+                gap: 1.5vw;
 
                 img {
-                    width: 5%;
-                    height: 5%;
+                    width: 5vw;
                 }
             }
         }
 
-        .skills-soft {
-
-            .soft-skills-title {
-                font-size: 1.6rem;
-                font-weight: 700;
-                padding: 1rem;
-            }
+        .soft-skills {
 
             ul {
                 list-style: none;

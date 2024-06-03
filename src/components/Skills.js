@@ -14,8 +14,7 @@ const Skills = ({ translations }) => {
         <div className="skills">
             <div className='skills-title'>{translations.skillsTitle}</div>
             <div className='skills-container'>
-                <div className="skills-hard">
-                    <h2 className='hard-skills-title'>{translations.hardSkillsTitle}</h2>
+                <div className="hard-skills">
                     <div className="skills-logos">
                         <img src={htmlLogo} alt="HTML" />
                         <img src={cssLogo} alt="CSS" />
@@ -27,8 +26,7 @@ const Skills = ({ translations }) => {
                         <img src={csharpLogo} alt="C#" />
                     </div>
                 </div>
-                <div className="skills-soft">
-                    <h2 className='soft-skills-title'>{translations.softSkillsTitle}</h2>
+                <div className="soft-skills">
                     <ul>
                         <li>{translations.softSkill1}</li>
                         <li>{translations.softSkill2}</li>

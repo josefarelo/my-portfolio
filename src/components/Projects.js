@@ -1,7 +1,7 @@
 import React from 'react';
 import './Projects.scss';
 
-const Projects = ({ language, translations }) => {
+const Projects = ({translations }) => {
     return (
         <section className="projects">
             <h2>{translations.projects}</h2>

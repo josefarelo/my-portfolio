@@ -1,11 +1,12 @@
 import React from 'react';
 import './Skills.scss';
-import jsLogo from '../assets/java-script-logo.ico';
-import reactLogo from '../assets/react-logo.ico';
-import nodeLogo from '../assets/node-logo.ico';
 import htmlLogo from '../assets/html-logo.ico';
 import cssLogo from '../assets/css-logo.ico';
+import jsLogo from '../assets/java-script-logo.ico';
+import reactLogo from '../assets/react-logo.ico';
 import sassLogo from '../assets/sass-logo.ico';
+import gitLogo from '../assets/git-logo.ico';
+import nodeLogo from '../assets/node-logo.ico';
 import sqlLogo from '../assets/sql-logo.ico';
 import csharpLogo from '../assets/c-sharp-logo.ico';
 
@@ -21,6 +22,7 @@ const Skills = ({ translations }) => {
                         <img src={jsLogo} alt="JavaScript" />
                         <img src={reactLogo} alt="React" />
                         <img src={sassLogo} alt="Sass" />
+                        <img src={gitLogo} alt="Git" />
                         <img src={nodeLogo} alt="Node.js" />
                         <img src={sqlLogo} alt="SQL" />
                         <img src={csharpLogo} alt="C#" />

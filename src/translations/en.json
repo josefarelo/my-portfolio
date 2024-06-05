@@ -19,6 +19,9 @@
     "medicarDescription": "MedicAR is an application that, through the registration of an account, allows the health professional to provide his services and the normal user to access a medical chart and search for his doctor.",
     "portfolioDescription": "My portfolio telling a little about me.",
     "projectLink": "Visit repository",
+    "contactTitle": "Contact",
+    "copy": "Copy",
+    "copied": "✓ Copied!",
     "contactCopy": "Copied to clipboard"
 }
 

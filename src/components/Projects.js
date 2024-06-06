@@ -28,8 +28,11 @@ const Projects = ({translations }) => {
                         className='project-img'
                     />
                     <p>{translations.portfolioDescription}</p>
-                    <a href="https://github.com/josefarelo/mi-portfolio" target="_blank" rel="noopener noreferrer">
+                    <a href="https://josefarelo.github.io/my-portfolio/" target="_blank" rel="noopener noreferrer">
                         {translations.projectLink}
+                    </a>
+                    <a href="https://github.com/josefarelo/mi-portfolio" target="_blank" rel="noopener noreferrer">
+                        {translations.projectRepoLink}
                     </a>
                 </div>
             </div>

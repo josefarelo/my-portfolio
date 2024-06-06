@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.5aed86ad.css",
+    "main.css": "/my-portfolio/static/css/main.618e37cb.css",
     "main.js": "/my-portfolio/static/js/main.d45d81ea.js",
     "static/media/about-me-img.png": "/my-portfolio/static/media/about-me-img.f4e96ba688049487fc47.png",
     "static/media/medicar-img.jpg": "/my-portfolio/static/media/medicar-img.ba3b3ee2c5d2a3965aa0.jpg",
@@ -43,11 +43,11 @@
     "static/media/github.svg": "/my-portfolio/static/media/github.99af66142e9c4db27017902f955fc7d4.svg",
     "static/media/linkedin.svg": "/my-portfolio/static/media/linkedin.588e93de33d72af074d6b74da9ca360a.svg",
     "index.html": "/my-portfolio/index.html",
-    "main.5aed86ad.css.map": "/my-portfolio/static/css/main.5aed86ad.css.map",
+    "main.618e37cb.css.map": "/my-portfolio/static/css/main.618e37cb.css.map",
     "main.d45d81ea.js.map": "/my-portfolio/static/js/main.d45d81ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.5aed86ad.css",
+    "static/css/main.618e37cb.css",
     "static/js/main.d45d81ea.js"
   ]
 }

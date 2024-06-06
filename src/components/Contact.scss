@@ -7,6 +7,10 @@
     h2 {
         font-size: 2rem;
         font-weight: 700;
+
+        @media (max-width: 1024px) {
+            font-size: 1.5rem;
+        }
     }
 
     .contact-info {
@@ -40,7 +44,7 @@
         }
 
         .icon-container {
-            width: 2.5%;
+            width: 3rem;
 
             .icon { 
                 width: 100%;
@@ -49,4 +53,39 @@
             }
         }
     }
+    
+    @media (max-width: 1080px) {
+        .contact-info {
+            
+            .email {
+                font-size: 1rem;
+            }
+            
+            .icon-container {
+                width: 40px;
+                height: 40px;
+                margin-bottom: 0;
+            }
+        }
+    }   
+    
+    @media (max-width: 768px) {
+        .contact-info {
+            flex-direction: column;
+            height: auto; 
+            gap: 1rem;
+
+            .email {
+                font-size: 1rem; 
+                margin-bottom: 1rem; 
+                text-align: center;
+            }
+            
+            .icon-container {
+                width: 40px;
+                height: 40px;
+            }
+        }
+    }
 }
+

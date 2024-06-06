@@ -12,7 +12,7 @@
     border-bottom: 1px solid rgb(19, 19, 19);
 
     h1 {
-        font-size: 27px;
+        font-size: 1.7rem;
         font-weight: 600;
         padding: 1.5%;
     }
@@ -22,8 +22,9 @@
         align-items: center;
         justify-content: space-evenly;
         width: 35%;
+
         a {
-            font-size: 17px;
+            font-size: 1.05rem;
             color: $light-color;
             text-decoration: none;
             cursor: pointer;
@@ -38,6 +39,66 @@
         display: flex;
         align-items: center;
         padding: 1.5%;
+    }
+
+    @media (max-width: 1024px) {
+        .navbar {
+            height: 7vh;
+        }
+
+        .navbar-links {
+            a {
+                font-size: 0.9rem;
+            }
+        }
+
+        .navbar-actions {
+            display: flex;
+            width: 30%;
+        }
+    }
+
+    @media (max-width: 768px) {
+        h1 {
+            font-size: 1.5rem;
+        }
+
+        .navbar-links {
+            a {
+                position: relative;
+                display: block;
+                font-size: 0.65rem;
+            }
+        }
+
+        .navbar-actions {
+            width: 40%;
+        }
+    }
+
+    @media (max-width: 640px) {
+        h1 {
+            font-size: 1.2rem;
+        }
+
+        .navbar-links {
+            a {
+                font-size: 0.5rem;
+            }
+        }
+    }
+
+    @media (max-width: 480px) {
+        h1 {
+            font-size: 1.1rem;
+        }
+
+        .navbar-links {
+            a {
+                font-size: 0.4rem;
+                padding: 1%;
+            }
+        }
     }
 }
 

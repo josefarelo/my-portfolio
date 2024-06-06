@@ -31,4 +31,40 @@
         border-radius: 50%;
         margin-left: 3%;
     }
+
+    @media (max-width: 1024px) {
+        .about {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .about-description {
+            width: 100%;
+            margin-top: 1.5rem;
+        }
+
+        .about-img-container {
+            margin-left: 0;
+            margin-top: 1.5rem;
+            width: 40%;
+            height: auto; 
+        }
+    }
+
+    @media (max-width: 768px) {
+        .about {
+            padding: 1rem; 
+        }
+
+        .about-description {
+            .about-title {
+                font-size: 1.5rem; 
+            }
+
+            .about-text {
+                font-size: 1rem;
+            }
+        }
+    }
 }

@@ -8,42 +8,54 @@
 }
 
 body::-webkit-scrollbar {
-  width: 0;
-  height: 0;
+    width: 0;
+    height: 0;
 }
 
 .App {
-  font-family: Arial, sans-serif;
-  text-align: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
 
-  &.light {
-    background-color: $light-bg;
-    color: $dark-color;
-  }
-
-  &.dark {
-    background-color: $dark-bg;
-    color: $light-color;
-  }
-
-
-  .section {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    &:nth-child(odd) {
-      background-color: rgba(0, 0, 0, 0);
+    &.light {
+        background-color: $light-bg;
+        color: $dark-color;
     }
 
-    &:nth-child(even) {
-      background-color: rgba(0, 0, 0, 0.06);
+    &.dark {
+        background-color: $dark-bg;
+        color: $light-color;
     }
 
-    &.active {
-      background-color: $light-bg;
-      color: $dark-color;
+    .section {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &:nth-child(odd) {
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        &:nth-child(even) {
+            background-color: rgba(0, 0, 0, 0.06);
+        }
+
+        &.active {
+            background-color: $light-bg;
+            color: $dark-color;
+        }
     }
-  }
+
+    @media (max-width: 768px) {
+        .section {
+            height: auto;
+            padding: 20px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .App {
+            font-size: 14px;
+        }
+    }
 }

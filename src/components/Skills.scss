@@ -26,8 +26,8 @@
                 gap: 1.5vw;
 
                 img {
-                    width: 5vw;
-                    max-width: 50px;
+                    width: 9vw;
+                    max-width: 74px;
                 }
             }
         }
@@ -53,7 +53,12 @@
                     }
 
                     @media (max-width: 768px) {
-                        font-size: 0.9rem;
+                        font-size: 0.6rem;
+                        padding: 0.5rem;
+                    }
+                    
+                    @media (max-width: 768px) {
+                        font-size: 0.6rem;
                         padding: 0.5rem;
                     }
                 }

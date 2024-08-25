@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.ce5f15ee.css",
-    "main.js": "/my-portfolio/static/js/main.14be2d41.js",
+    "main.css": "/my-portfolio/static/css/main.5eccbdd7.css",
+    "main.js": "/my-portfolio/static/js/main.c0e7db41.js",
+    "static/media/medicar-video.mp4": "/my-portfolio/static/media/medicar-video.94a396b6f87ed5994e85.mp4",
     "static/media/about-me-img.png": "/my-portfolio/static/media/about-me-img.f4e96ba688049487fc47.png",
-    "static/media/medicar-img.jpg": "/my-portfolio/static/media/medicar-img.ba3b3ee2c5d2a3965aa0.jpg",
     "static/media/usa-flag.jpg": "/my-portfolio/static/media/usa-flag.45d902880455ae056c63.jpg",
     "static/media/portfolio-img.jpg": "/my-portfolio/static/media/portfolio-img.c346fb3567cd4fe23c45.jpg",
     "static/media/spain-flag.jpg": "/my-portfolio/static/media/spain-flag.6699ffebf8d1ed3103b8.jpg",
+    "static/media/la-batata.png": "/my-portfolio/static/media/la-batata.a962d7d32383eba85cc3.png",
     "static/media/c-sharp-logo.ico": "/my-portfolio/static/media/c-sharp-logo.cac8a77ea7b0a912f031.ico",
     "static/media/css-logo.ico": "/my-portfolio/static/media/css-logo.d2a2b6152576a894f9d7.ico",
     "static/media/git-logo.ico": "/my-portfolio/static/media/git-logo.c5fd242f4017f80c37bd.ico",
@@ -43,11 +44,11 @@
     "static/media/github.svg": "/my-portfolio/static/media/github.99af66142e9c4db27017902f955fc7d4.svg",
     "static/media/linkedin.svg": "/my-portfolio/static/media/linkedin.588e93de33d72af074d6b74da9ca360a.svg",
     "index.html": "/my-portfolio/index.html",
-    "main.ce5f15ee.css.map": "/my-portfolio/static/css/main.ce5f15ee.css.map",
-    "main.14be2d41.js.map": "/my-portfolio/static/js/main.14be2d41.js.map"
+    "main.5eccbdd7.css.map": "/my-portfolio/static/css/main.5eccbdd7.css.map",
+    "main.c0e7db41.js.map": "/my-portfolio/static/js/main.c0e7db41.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce5f15ee.css",
-    "static/js/main.14be2d41.js"
+    "static/css/main.5eccbdd7.css",
+    "static/js/main.c0e7db41.js"
   ]
 }

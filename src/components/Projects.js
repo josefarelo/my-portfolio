@@ -1,8 +1,8 @@
 import React from 'react';
 import './Projects.scss';
-//import medicarImg from '../assets/medicar-img.jpg';
 import medicarVideo from '../assets/medicar-video.mp4';
 import portfolioImg from '../assets/portfolio-img.jpg';
+import laBatataImg from '../assets/la-batata.png';
 
 const Projects = ({translations }) => {
 
@@ -50,6 +50,24 @@ const Projects = ({translations }) => {
                     <p className='project-tools'>{translations.portfolioTools}</p>
                     <a href="https://github.com/josefarelo/mi-portfolio" target="_blank" rel="noopener noreferrer">
                         {translations.projectRepoLink}
+                    </a>
+                </div>
+
+
+                <div className="project-card">
+                    <h3>{translations.projectLaBatata}</h3>
+                    <img 
+                        src={laBatataImg}
+                        alt='Project' 
+                        className='project-img'
+                    />
+                    <p>{translations.laBatataDescription}</p>
+                    <p className='project-tools'>{translations.laBatataTools}</p>
+                    <a href="https://github.com/josefarelo/la-batata" target="_blank" rel="noopener noreferrer">
+                        {translations.projectRepoLink}
+                    </a>
+                    <a href="https://josefarelo.github.io/la-batata/" target="_blank" rel="noopener noreferrer">
+                        {translations.projectLink}
                     </a>
                 </div>
             </div>

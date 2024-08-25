@@ -1,23 +1,42 @@
 import React from 'react';
 import './Projects.scss';
-import medicarImg from '../assets/medicar-img.jpg';
+//import medicarImg from '../assets/medicar-img.jpg';
+import medicarVideo from '../assets/medicar-video.mp4';
 import portfolioImg from '../assets/portfolio-img.jpg';
 
 const Projects = ({translations }) => {
+
+    const handleFullScreen = (e) => {
+        if (e.requestFullscreen) {
+            e.requestFullscreen();
+        } else if (e.mozRequestFullScreen) { // Firefox
+            e.mozRequestFullScreen();
+        } else if (e.webkitRequestFullscreen) { // Chrome, Safari, and Opera
+            e.webkitRequestFullscreen();
+        } else if (e.msRequestFullscreen) { // IE/Edge
+            e.msRequestFullscreen();
+        }
+    };
+
     return (
         <section className="projects">
             <h2>{translations.projects}</h2>
             <div className="project-list">
                 <div className="project-card">
                     <h3>{translations.projectMedicar}</h3>
-                    <img 
-                        src={medicarImg}
-                        alt='Project' 
-                        className='project-img'
-                    />
+                    <video
+                        width="100%"
+                        className="project-video"
+                        controls
+                        onClick={(e) => handleFullScreen(e.target)}
+                    >
+                        <source src={medicarVideo} type="video/mp4" />
+                        Tu navegador no soporta el elemento de video.
+                    </video>
                     <p>{translations.medicarDescription}</p>
+                    <p className='project-tools'>{translations.medicarTools}</p>
                     <a href="https://github.com/josefarelo/proyecto-cartilla-medica" target="_blank" rel="noopener noreferrer">
-                        {translations.projectLink}
+                        {translations.projectRepoLink}
                     </a>
                 </div>
                 <div className="project-card">
@@ -28,9 +47,7 @@ const Projects = ({translations }) => {
                         className='project-img'
                     />
                     <p>{translations.portfolioDescription}</p>
-                    <a href="https://josefarelo.github.io/my-portfolio/" target="_blank" rel="noopener noreferrer">
-                        {translations.projectLink}
-                    </a>
+                    <p className='project-tools'>{translations.portfolioTools}</p>
                     <a href="https://github.com/josefarelo/mi-portfolio" target="_blank" rel="noopener noreferrer">
                         {translations.projectRepoLink}
                     </a>

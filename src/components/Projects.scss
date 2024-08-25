@@ -35,6 +35,12 @@
                 padding-top: 0;
             }
 
+            .project-video {
+                width: 100%;
+                border-radius: 8px;
+                padding-top: 0;
+            }
+
             h3 {
                 margin: auto;
                 padding-bottom: 1rem;
@@ -46,6 +52,10 @@
                 justify-content: center;
                 text-align: start;
                 font-size: 0.9rem;
+            }
+            
+            .project-tools {
+                color: #3082df;
             }
 
             a {

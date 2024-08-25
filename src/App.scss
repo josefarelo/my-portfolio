@@ -46,9 +46,21 @@ body::-webkit-scrollbar {
         }
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 1280px) {
+        .section {
+            padding: 15px;
+        }
+    }
+
+    @media (max-width: 854px) {
         .section {
             height: auto;
+            padding: 10px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .section {
             padding: 20px;
         }
     }

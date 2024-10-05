@@ -3,6 +3,7 @@ import './Projects.scss';
 import medicarVideo from '../assets/medicar-video.mp4';
 import portfolioImg from '../assets/portfolio-img.jpg';
 import laBatataImg from '../assets/la-batata.png';
+import gestorVentas from '../assets/gestor-ventas.mp4';
 
 const Projects = ({translations }) => {
 
@@ -39,6 +40,7 @@ const Projects = ({translations }) => {
                         {translations.projectRepoLink}
                     </a>
                 </div>
+                
                 <div className="project-card">
                     <h3>{translations.projectPortfolio}</h3>
                     <img 
@@ -52,7 +54,6 @@ const Projects = ({translations }) => {
                         {translations.projectRepoLink}
                     </a>
                 </div>
-
 
                 <div className="project-card">
                     <h3>{translations.projectLaBatata}</h3>
@@ -68,6 +69,24 @@ const Projects = ({translations }) => {
                     </a>
                     <a href="https://josefarelo.github.io/la-batata/" target="_blank" rel="noopener noreferrer">
                         {translations.projectLink}
+                    </a>
+                </div>
+
+                <div className="project-card">
+                    <h3>{translations.projectGestorVentas}</h3>
+                    <video
+                        width="100%"
+                        className="project-video"
+                        controls
+                        onClick={(e) => handleFullScreen(e.target)}
+                    >
+                        <source src={gestorVentas} type="video/mp4" />
+                        Tu navegador no soporta el elemento de video.
+                    </video>
+                    <p>{translations.gestorVentasDescription}</p>
+                    <p className='project-tools'>{translations.gestorVentasTools}</p>
+                    <a href="https://github.com/josefarelo/sistema-de-gestion-de-ventas" target="_blank" rel="noopener noreferrer">
+                        {translations.projectRepoLink}
                     </a>
                 </div>
             </div>

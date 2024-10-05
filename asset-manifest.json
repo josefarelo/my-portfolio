@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.5eccbdd7.css",
-    "main.js": "/my-portfolio/static/js/main.c0e7db41.js",
-    "static/media/medicar-video.mp4": "/my-portfolio/static/media/medicar-video.94a396b6f87ed5994e85.mp4",
+    "main.js": "/my-portfolio/static/js/main.506c2a29.js",
+    "static/media/gestor-ventas.mp4": "/my-portfolio/static/media/gestor-ventas.73f79702abed32c9bdac.mp4",
+    "static/media/medicar-video.mp4": "/my-portfolio/static/media/medicar-video.10eb7ee3e905f113a598.mp4",
     "static/media/about-me-img.png": "/my-portfolio/static/media/about-me-img.f4e96ba688049487fc47.png",
     "static/media/usa-flag.jpg": "/my-portfolio/static/media/usa-flag.45d902880455ae056c63.jpg",
     "static/media/portfolio-img.jpg": "/my-portfolio/static/media/portfolio-img.c346fb3567cd4fe23c45.jpg",
@@ -45,10 +46,10 @@
     "static/media/linkedin.svg": "/my-portfolio/static/media/linkedin.588e93de33d72af074d6b74da9ca360a.svg",
     "index.html": "/my-portfolio/index.html",
     "main.5eccbdd7.css.map": "/my-portfolio/static/css/main.5eccbdd7.css.map",
-    "main.c0e7db41.js.map": "/my-portfolio/static/js/main.c0e7db41.js.map"
+    "main.506c2a29.js.map": "/my-portfolio/static/js/main.506c2a29.js.map"
   },
   "entrypoints": [
     "static/css/main.5eccbdd7.css",
-    "static/js/main.c0e7db41.js"
+    "static/js/main.506c2a29.js"
   ]
 }
